@@ -5,30 +5,35 @@
 }
 
 body {
-    background-color: #22254b;
+    /* background-color: #22254b; */
+    background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #373b69;
+    /* background-color: #373b69; */
+    background-color: rgb(6, 6, 59);
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
 }
 
+
 .search {
     background-color: transparent;
-    border: 2px solid #22254b;
+    border: 2px solid yellowgreen;
     border-radius: 50px;
     color: #fff;
     font-family: inherit;
     font-size: 1rem;
     padding: 0.5rem 1rem;
+    margin-right: 500px;
 }
 
 .search::placeholder {
-    color: #7378c5;
+    color: yellowgreen;
+    opacity: 0.6;
 }
 
 .search:focus {
@@ -39,6 +44,7 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 130px;
 }
 
 .movie {
